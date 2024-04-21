@@ -1,5 +1,94 @@
+/* ----------------------------- header styles ----------------------------- */
 .header {
   font-size: 2rem;
   background-color: #163c4994;
   padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.header__title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__title {
+  font-size: 2rem;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.header_icon {
+  width: 50px;
+}
+
+.header__nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.header__nav-list > li {
+  cursor: pointer;
+  border-bottom: 2px solid #70a9a1;
+  padding-bottom: 5px;
+}
+
+.header__login-btn {
+  background-color: #70a9a1;
+  border-radius: 5px;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 5px 25px;
+  text-transform: uppercase;
+}
+
+/* ----------------------------- footer styles ----------------------------- */
+.footer {
+  background-color: #163c4994;
+}
+
+.footer__main {
+  padding: 20px 5vw 30px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #70a9a1;
+  gap: 10px;
+}
+
+.footer__main h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.footer__main h3,
+span {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.footer__contact-info {
+  padding-top: 20px;
+}
+
+.footer__contact-info span {
+  display: inline-block;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.4rem;
 }
